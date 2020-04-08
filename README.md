@@ -1,5 +1,5 @@
 # Nova Calculated Field
-An extension of the [**codebykyle/calculated-field**](https://codebykyle.com/blog/laravel-nova-custom-calculated-field) package ([github](https://github.com/codebykyle/calculated-field)).
+An extension of the [**codebykyle/calculated-field**](https://codebykyle.com/blog/laravel-nova-custom-calculated-field) package ([github](https://github.com/codebykyle/calculated-field)), but with more field types.
 
 All fields (except ListenerBelongsTo) in this repo behave similarly to fields in that package. Main difference is the renaming of the **calculateWith()** function to **set()**.
 
