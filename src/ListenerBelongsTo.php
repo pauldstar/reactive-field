@@ -1,8 +1,8 @@
 <?php
 
-namespace Fusion\CalculatedField;
+namespace Pauldstar\CalculatedField;
 
-use Fusion\CalculatedField\Traits\Listener;
+use Pauldstar\CalculatedField\Traits\Listener;
 use Illuminate\Support\Collection;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Http\Requests\NovaRequest;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Fusion\CalculatedField;
+namespace Pauldstar\CalculatedField;
 
-use Fusion\CalculatedField\Traits\Listener;
+use Pauldstar\CalculatedField\Traits\Listener;
 use Laravel\Nova\Fields\Text;
 
 class ListenerText extends Text

@@ -1,6 +1,6 @@
 <?php
 
-namespace Fusion\CalculatedField\Traits;
+namespace Pauldstar\CalculatedField\Traits;
 
 use Closure;
 

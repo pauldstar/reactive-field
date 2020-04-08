@@ -1,6 +1,6 @@
 <?php
 
-namespace Fusion\CalculatedField;
+namespace Pauldstar\CalculatedField;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
@@ -34,7 +34,7 @@ class FieldServiceProvider extends ServiceProvider
         }
 
         Route::middleware(['nova'])
-            ->namespace('Fusion\CalculatedField\Http\Controllers')
+            ->namespace('Pauldstar\CalculatedField\Http\Controllers')
             ->prefix('fusion/calculated-field')
             ->group(__DIR__.'/../routes/api.php');
     }

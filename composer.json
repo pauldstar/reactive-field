@@ -3,7 +3,10 @@
     "description": "An extension of codebykyle/calculated-field",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "field",
+        "calculated",
+        "server-side"
     ],
     "license": "MIT",
     "require": {

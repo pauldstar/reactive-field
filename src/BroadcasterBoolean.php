@@ -1,8 +1,8 @@
 <?php
 
-namespace Fusion\CalculatedField;
+namespace Pauldstar\CalculatedField;
 
-use Fusion\CalculatedField\Traits\Broadcaster;
+use Pauldstar\CalculatedField\Traits\Broadcaster;
 use Laravel\Nova\Fields\Boolean;
 
 class BroadcasterBoolean extends Boolean
