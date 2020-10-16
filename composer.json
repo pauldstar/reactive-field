@@ -1,5 +1,5 @@
 {
-    "name": "pauldstar/calculated-field",
+    "name": "fifteen-group/nova-reactive-field",
     "description": "An extension of codebykyle/calculated-field",
     "keywords": [
         "laravel",
@@ -14,18 +14,15 @@
     },
     "autoload": {
         "psr-4": {
-            "Pauldstar\\CalculatedField\\": "src/"
+            "FifteenGroup\\NovaReactiveField\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Pauldstar\\CalculatedField\\FieldServiceProvider"
+                "FifteenGroup\\NovaReactiveField\\FieldServiceProvider"
             ]
         }
-    },
-    "config": {
-        "sort-packages": true
     },
     "minimum-stability": "dev",
     "prefer-stable": true
