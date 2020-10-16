@@ -1,4 +1,4 @@
-# Nova Calculated Field
+# Nova Reactive Field
 An extension of the [**codebykyle/calculated-field**](https://codebykyle.com/blog/laravel-nova-custom-calculated-field) package ([github](https://github.com/codebykyle/calculated-field)), with more field types.
 
 Unlike **codebykyle/calculated-field**, each field has listening and broadcast capabilities:
