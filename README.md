@@ -5,6 +5,8 @@ Unlike **codebykyle/calculated-field**, each field has listening and broadcast c
 * To broadcast, use **->emit(string $event)**
 * To listen, first specify th event to listen for **->on(string|string[] $event)** then handle it with **->handle(callable $callback)**.
 
+Example usage can be found in Example.php.
+
 For the listening field, the callback function in **->handle(callable $callback)** is provided with a collection of values from broadcasters **(Collection $values)**, then calculates and returns a new value for the listener field.
 
 The only field that has extra is the **ReactiveBelongsTo** field.
