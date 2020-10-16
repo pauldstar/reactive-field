@@ -11,11 +11,15 @@
     },
     "devDependencies": {
         "cross-env": "^5.0.0",
-        "vue-template-compiler": "^2.6.11",
-        "laravel-mix": "^5.0",
-        "laravel-nova": "^1.0"
+        "laravel-mix": "^5.0.5",
+        "laravel-nova": "^1.6.0",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.26.3",
+        "sass-loader": "^8.0.2",
+        "vue-template-compiler": "^2.6.11"
     },
     "dependencies": {
+        "@shopify/draggable": "^1.0.0-beta.8",
         "vue": "^2.5.0"
     }
 }
